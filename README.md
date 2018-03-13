@@ -4,9 +4,10 @@
 
 ## JavaScript 深度学习
 [Javascript 异步编程](https://github.com/djlxiaoshi/blog/issues/1)
+
 [Javascript This 解读](https://github.com/djlxiaoshi/blog/issues/3)
 
 
-Angular-Study
+## Angular
 
 [Angular4学习之依赖注入](https://github.com/djlxiaoshi/blog/issues/2)
