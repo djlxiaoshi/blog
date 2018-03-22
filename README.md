@@ -25,6 +25,8 @@
 
 [我的简书账号](https://www.jianshu.com/u/d8657fcf1678)
 
+个人公众号
+
 ![个人公众号](./source/images/xiaoshi-xiaowu.jpg)
 
 
