@@ -7,6 +7,9 @@
 
 [Javascript This 解读](https://github.com/djlxiaoshi/blog/issues/3)
 
+[Javascript 原型&原型链深度解读](https://github.com/djlxiaoshi/blog/issues/5)
+
+[JavaScript 继承](https://github.com/djlxiaoshi/blog/issues/6)
 
 ## Angular
 
