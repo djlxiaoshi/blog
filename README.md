@@ -15,6 +15,9 @@
 ## React
 [基于React的脚手架搭建](https://github.com/djlxiaoshi/blog/issues/4)
 
+## 设计模式
+[设计模式学习之观察者、发布订阅模式](https://github.com/djlxiaoshi/blog/issues/7)
+
 ## 更多
 [更多请查看](https://github.com/djlxiaoshi/blog/tree/master/source/_posts)
 
