@@ -72,8 +72,8 @@ templateUrl: 'part.html'
 
 ## replace
 该属性表明这个指令是直接插入到DOM结构中（值为TRUE），还是先把`<my-directive></my-directive>`这个标签去除后只插入指令中template或者templateUrl中的内容。
-![值为false](http://ok3x4ia9b.bkt.clouddn.com/17-4-6/52136146-file_1491473056558_dddc.png)
-![值为true](http://ok3x4ia9b.bkt.clouddn.com/17-4-6/30517686-file_1491472930303_7e1e.png)
+![值为false](http://images.djl.pub/17-4-6/52136146-file_1491473056558_dddc.png)
+![值为true](http://images.djl.pub/17-4-6/30517686-file_1491472930303_7e1e.png)
 
 ## scope
 在前面我们知道directive可以直接拿到所在controller中的数据，但是如果在同一个controller中有多个directive，我们希望通过传入directive不同的值来展示不同的结果，这时我们就要使用scope属性，这个属性类似于Vue组件中props属性。

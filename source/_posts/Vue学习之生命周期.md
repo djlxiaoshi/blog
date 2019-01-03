@@ -12,7 +12,7 @@ categories: Vue学习
 <!--more-->
 这里首先来看看Vue官方文档给出的生命周期示意图。
 
-![Vue生命周期](http://ok3x4ia9b.bkt.clouddn.com/17-1-21/75404643-file_1484986273994_1820a.png)
+![Vue生命周期](http://images.djl.pub/17-1-21/75404643-file_1484986273994_1820a.png)
 
 在这里我主要讨论init、created、beforeCompile、compiled、ready、beforeDestroy、destroyed这几个生命周期钩子函数。
 
@@ -87,6 +87,6 @@ destroyed: function () {
 }
 ```
 
-![结果](http://ok3x4ia9b.bkt.clouddn.com/17-1-21/56048235-file_1484985260986_9fc2.jpg)
+![结果](http://images.djl.pub/17-1-21/56048235-file_1484985260986_9fc2.jpg)
 
 生命周期在组件开发总非常重要，尤其是能在适当的时机取得数据。

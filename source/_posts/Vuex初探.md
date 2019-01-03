@@ -26,14 +26,14 @@ npm install vuex@1.0.0
 
 在这里首先借用官方文档中的一幅图片
 
-![Vuex流程图](http://ok3x4ia9b.bkt.clouddn.com/17-1-29/63997298-file_1485700766566_d0e.png)
+![Vuex流程图](http://images.djl.pub/17-1-29/63997298-file_1485700766566_d0e.png)
 
 从这里我们会知道一下几个核心概念
 
 ## 核心概念
 在使用Vuex时，我们一般会有如下文件结构：
 
-![Vuex基本文件结构](http://ok3x4ia9b.bkt.clouddn.com/17-1-29/92859228-file_1485701346600_9217.jpg)
+![Vuex基本文件结构](http://images.djl.pub/17-1-29/92859228-file_1485701346600_9217.jpg)
 
 ### state
 state对象保存的就是共享数据的当前状态
@@ -49,7 +49,7 @@ state对象保存的就是共享数据的当前状态
 
 actions不能直接操作state数据的，而是通过dispatch相应的mutations来实现。一般组件直接调用的就是actions中提供的函数接口，而不会去直接调用mutations。
 
-![](http://ok3x4ia9b.bkt.clouddn.com/17-1-29/32989864-file_1485700769110_11d56.jpg)
+![](http://images.djl.pub/17-1-29/32989864-file_1485700769110_11d56.jpg)
 
 上图是我自己画的一个调用关系图，从上面我们可以看到，调用过程还是比较复杂的，所以如果是比较小的项目，就不要使用Vuex了。
 
@@ -57,7 +57,7 @@ actions不能直接操作state数据的，而是通过dispatch相应的mutations
 
 首先我们通过vue-cli脚手架搭建一个vue工程，如果不是很清楚可以看看我的另一篇博客。然后我们构建`Display.vue`、`Increment.vue`和`Decrement.vue`三个组件。然后新建一个vuex文件夹下面有`store.js`、`actions.js`和`getters.js`。工程目录结构如下图所示。
 
-![计数器工程目录结构](http://ok3x4ia9b.bkt.clouddn.com/17-1-29/90277051-file_1485702257444_17c2d.jpg)
+![计数器工程目录结构](http://images.djl.pub/17-1-29/90277051-file_1485702257444_17c2d.jpg)
 
 ### store.js
 ```js

@@ -21,7 +21,7 @@ setTimeout(function () {
 console.log(3);
 ```
 
-![JavaScript异步执行示意图](http://ok3x4ia9b.bkt.clouddn.com/17-12-14/94900806.jpg)
+![JavaScript异步执行示意图](http://images.djl.pub/17-12-14/94900806.jpg)
 
 
 ## callback
@@ -121,7 +121,7 @@ function d () {
 a();
 ```
 
-![Node错误打印](http://ok3x4ia9b.bkt.clouddn.com/17-12-14/34642187.jpg)
+![Node错误打印](http://images.djl.pub/17-12-14/34642187.jpg)
 
 从上面的图我们可以看到有一个比较清晰的错误栈信息，a调用b - b调用c - c调用d ，在d中抛出了一个异常。也就是说在JavaScript中在执行一个函数的时候首先会压入执行栈中，执行完毕后会移除执行栈，FILO的结构。我们可以很方便的从错误信息中定位到出错的地方。
 
@@ -145,7 +145,7 @@ function cb() {
 a();
 ```
 
-![包含异步的错误栈](http://ok3x4ia9b.bkt.clouddn.com/17-12-14/24038039.jpg)
+![包含异步的错误栈](http://images.djl.pub/17-12-14/24038039.jpg)
 
 从上图我们可以看到只打印出了是在一个setTimeout中的回调函数中出现了异常，执行顺序是跟踪不到的。
 

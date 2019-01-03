@@ -217,11 +217,11 @@ var router = new VueRouter({
 ```
 我们加上了`keep-alive`这个属性，当我们不加的时候，每次切换路由都会重新加载DOM，这样就会出现一些问题，例如下图
 
-![keep-alive示例图](http://ok3x4ia9b.bkt.clouddn.com/17-2-8/4536530-file_1486560148439_faff.jpg)
+![keep-alive示例图](http://images.djl.pub/17-2-8/4536530-file_1486560148439_faff.jpg)
 
 我们此时在*商品*路由下面有两个实物加入了购物车，这是此时的状态，加入我们不加`keep-alive`我们切换到*评论*路由，然后再切换到*商品*路由，由于DOM会刷新，那么我们此时的已经加入购物车的状态就会清空，这显示不是我们想要的。如下图：
 
-![](http://ok3x4ia9b.bkt.clouddn.com/17-2-8/65884667-file_1486560396173_c4d9.jpg)
+![](http://images.djl.pub/17-2-8/65884667-file_1486560396173_c4d9.jpg)
 
 
 # 坑
